@@ -1,0 +1,46 @@
+.webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Buttons */
+
+.btn-capture{
+    background-color: #ffff;
+    padding: 2% 10%;
+    margin-top: 50px;
+    color: #2a2e30;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-upload{
+    background-color: #ffff;
+    padding: 20px;
+    margin: 20px;
+    color: #2a2e30;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    border: none;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 669px) {
+    .webcam-container video {
+        width: 80%;
+    }
+    .img-popup {
+        width: 80%;
+    }
+    .btn-capture {
+        padding: 3% 15%;
+    }
+}

@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+}
+
+.navbar span {
+    font-size: 15px;
+    color: white;
+    margin-right: 12px;
+}
+
+.navbar button {
+    padding: 5px 15px;
+    margin: 20px;
+    border: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}

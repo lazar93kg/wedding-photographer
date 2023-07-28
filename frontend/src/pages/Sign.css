@@ -1,0 +1,70 @@
+.form-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+
+.form-wrapper {
+    background-color: #ffff;
+    padding: 1.25rem 3.75rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.938rem;
+}
+
+.form-wrapper input {
+    color: rgb(0, 0, 0);
+    background-color: #ffff;
+    padding: 0.938;
+    border: none;
+    border-bottom: 1px solid rgb(188, 188, 188);
+
+}
+
+.form-wrapper input::placeholder {
+    color: rgb(155, 154, 154);
+}
+
+.input-radio {
+    display: flex;
+
+}
+
+.input-radio label {
+    margin: 10px;
+}
+
+.input-radio input[name="role"] {
+    accent-color: #2a2e30;
+}
+
+form input {
+    padding: 0.8rem;
+}
+
+form input:focus {
+    border: 2px solid #2a2e30;
+    outline: none;
+
+}
+
+.error {
+    margin: 0.5rem 0rem;
+    color: #ed4337;
+}
+
+@media screen and (max-width: 420px) {
+    .form-wrapper {
+        width: 90%;
+    }
+}
