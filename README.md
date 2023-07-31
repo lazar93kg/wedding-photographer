@@ -20,14 +20,7 @@ Wedding Photographer is a web application designed to capture and preserve the c
 - Storage: localStorage / NeDB 
 - Authentication: BCrypt
 
-
-## Installation
-
-Install app with npm
-
-```bash
-  npm install
-```
-    
 ## License
-NBI/Handelsakademin && Lazar Jevtic.
+Lazar Jevtic
+## Mock-up
+NBI/Handelsakademin.
